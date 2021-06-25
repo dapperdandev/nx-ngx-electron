@@ -22,7 +22,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "nx-angular-electron-template",
+            "prefix": "appname",
             "style": "kebab-case"
           }
         ]
