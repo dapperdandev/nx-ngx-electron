@@ -8,6 +8,8 @@
     "nx": "nx",
     "start": "ng run-many --target=serve --projects=renderer,main --parallel",
     "build": "nx run-many --target=build --projects=renderer,main --parallel --baseHref=\"./\"",
+    "package": "nx run main:package",
+    "make": "nx run main:make",
     "clean": "rimraf dist",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
