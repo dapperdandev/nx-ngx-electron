@@ -6,7 +6,7 @@
     "ng": "nx",
     "postinstall": "exitzero electron-builder install-app-deps",
     "nx": "nx",
-    "start": "ng run-many --target=serve --projects=renderer,main --parallel",
+    "start": "nx run-many --target=serve --projects=renderer,main --parallel",
     "build": "nx run-many --target=build --projects=renderer,main --parallel --baseHref=\"./\"",
     "package": "nx run main:package",
     "make": "nx run main:make",
